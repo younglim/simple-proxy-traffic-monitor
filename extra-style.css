@@ -1,0 +1,12 @@
+#panel-visit_time,
+#panel-referring_sites,
+#panel-static_requests,
+#panel-not_found,
+#panel-geolocation,
+.wrap-general-items > div + div > div:first-child,
+.wrap-general-items > div + div > div:nth-child(2),
+.wrap-general-items > div + div > div:nth-child(3),
+.wrap-general-items > div + div > div:nth-child(4),
+.wrap-general-items > div:first-child > div:nth-child(4) {
+        display: none;
+}
